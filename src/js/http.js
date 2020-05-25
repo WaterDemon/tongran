@@ -4,7 +4,7 @@ import router from '@/router'
 var qs = require('qs');
 
 axios.defaults.timeout = ''; // 自己定义超时时间
-axios.defaults.baseURL = 'http://111.229.51.194/app';  // 地址，也你自己定
+axios.defaults.baseURL = 'http://';  // 避免接口被人狂刷，还是删掉好点
 
 //http request 拦截器
 axios.interceptors.request.use(
