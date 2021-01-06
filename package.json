@@ -14,7 +14,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "babel-plugin-transform-remove-strict-mode": "0.0.2",
     "clipic": "^0.8.0",
     "jquery": "^3.4.1",
